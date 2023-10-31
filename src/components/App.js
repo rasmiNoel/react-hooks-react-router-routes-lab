@@ -7,7 +7,8 @@ import Directors from "./Directors";
 import Movies from "./Movies";
 
 function App() {
-  return <div>
+  return (
+  <div>
     <NavBar />
     <Switch>
       <Route path="/movies">
@@ -23,7 +24,8 @@ function App() {
         <Home />
       </Route>
     </Switch>
-  </div>;
+  </div>
+  );
 }
 
 export default App;
